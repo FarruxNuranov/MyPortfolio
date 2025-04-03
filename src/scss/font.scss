@@ -1,0 +1,13 @@
+$FireCode: ('Regular', 400),
+           ('Medium', 500),
+           ('SemiBold', 700);
+
+
+
+           @each $name, $size in $FireCode {
+            @font-face {
+                font-family: 'FireCode';
+                src: url(../assets/fonts/FireCode-#{$name}.ttf);
+                font-weight: $size;
+            }
+        }          
