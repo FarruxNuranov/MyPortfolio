@@ -1,5 +1,5 @@
 export { default as logo} from '../assets/images/logo.svg'
-export{ default as discord } from '../assets/images/Discord.png'
+export{ default as discord } from '../assets/images/discord.png'
 export{ default as vector } from '../assets/images/github.png'
 export{ default as figma } from '../assets/images/Figma.png'
 export { default as line }  from '../assets/images/Line.svg'
